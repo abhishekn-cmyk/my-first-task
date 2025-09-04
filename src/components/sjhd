@@ -1,0 +1,63 @@
+ {/* <div
+      className="min-h-screen py-10"
+      style={{
+        backgroundImage: "url('/pattern.png')", // add a subtle pattern image here
+        backgroundRepeat: "repeat",
+        backgroundColor: "#fdfaf4", // fallback beige color
+      }}
+    >
+      <Container fluid>
+        {/* First Row */}
+        <Row>
+          {/* Left Block */}
+          <Col md={4} className="mb-5">
+            <Image src="/images.jpg" fluid />
+            <div className="bg-[#fff2d9] p-6 -mt-3">
+              <h5 className="text-lg font-semibold">Lorem Ipsum</h5>
+            </div>
+          </Col>
+
+          {/* Middle Block */}
+          <Col md={4} className="mb-5">
+            <Image src="/images.jpg" fluid />
+            <div className="bg-[#e5d7c3] p-6 -mt-8 flex items-center justify-center text-center">
+              <h5 className="text-xl font-medium leading-relaxed">
+                Our High <br /> Quality <br /> Production <br /> Process
+              </h5>
+            </div>
+          </Col>
+
+          {/* Right Block */}
+          <Col md={4} className="mb-5">
+            <Image src="/images.jpg" fluid />
+            <div className="bg-[#fbe9c7] p-6 -mt-8">
+              <p className="text-md">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </Col>
+        </Row>
+
+        {/* Second Row */}
+        <Row>
+          {/* Left Text Block */}
+          <Col md={4} className="mb-5">
+            <Image src="/images.jpg" fluid />
+            <div className="bg-[#fff2d9] p-6 -mt-8">
+              <p className="text-md leading-relaxed">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed
+                diam nonummy nibh.
+              </p>
+            </div>
+          </Col>
+
+          {/* Middle Image */}
+          <Col md={4} className="mb-5">
+            <Image src="/images.jpg" fluid />
+          </Col>
+
+          {/* Right Image */}
+          <Col md={4} className="mb-5">
+            <Image src="/images.jpg" fluid />
+          </Col>
+        </Row>
+      </Container>
+    </div> */}
