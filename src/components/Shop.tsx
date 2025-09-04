@@ -1,5 +1,5 @@
-import { Container, Row, Col, Button, Carousel, Image } from "react-bootstrap";
-import Footer from "./Footer";
+import { Container, Row, Col, Button, Carousel } from "react-bootstrap";
+
 
 const dummyImages = ["/images.jpg", "/images.jpg", "/images.jpg"];
 
@@ -169,4 +169,5 @@ export default function Shop() {
      </>
   );
 }
+
 
