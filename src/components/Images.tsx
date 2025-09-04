@@ -1,4 +1,4 @@
-import { FC } from "react";
+import type { FC } from "react";
 import { Container } from "react-bootstrap";
 
 const Images: FC = () => {
@@ -30,3 +30,4 @@ const Images: FC = () => {
 };
 
 export default Images;
+
