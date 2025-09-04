@@ -1,17 +1,14 @@
 // Home.tsx
-import React from "react";
+import type { FC } from "react";
 
 import Images from "./Images";
 import Shop from "./Shop";
 
-
-const Home: React.FC = () => {
+const Home: FC = () => {
   return (
     <>
-      
       <Images />
       <Shop />
-      
     </>
   );
 };
