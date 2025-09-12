@@ -56,48 +56,61 @@ export default function Choose() {
 
         {/* Section: Meet the Team */}
         <h4 className="mb-4 text-start">Meet The Team</h4>
-        <Row className="justify-content-start mb-5">
-          {["/images.jpg", "/images.jpg", "/images.jpg"].map((img, idx) => (
-            <Col lg={4} md={6} xs={12} key={idx} className="mb-4 d-flex justify-content-center">
-              <div
-                style={{
-                  position: "relative",
-                  width: "100%",
-                  maxWidth: "260px",
-                  height: "300px",
-                  borderRadius: "12px",
-                  overflow: "hidden",
-                  boxShadow: "0 6px 12px rgba(0,0,0,0.2)",
-                  transition: "transform 0.4s ease, box-shadow 0.4s ease",
-                }}
-                className="hover-scale"
-              >
-                <img
-                  src={img}
-                  alt="team"
-                  style={{ width: "100%", height: "100%", objectFit: "cover" }}
-                />
-                {idx === 1 && (
-                  <div
-                    style={{
-                      position: "absolute",
-                      bottom: "0",
-                      width: "100%",
-                      textAlign: "center",
-                      background: "rgba(0,0,0,0.5)",
-                      padding: "10px",
-                      color: "white",
-                      fontWeight: "bold",
-                    }}
-                  >
-                    Full Name
-                    <br /> Lorem Ipsum
-                  </div>
-                )}
-              </div>
-            </Col>
-          ))}
-        </Row>
+       <Row className="justify-content-start mb-5">
+  {["/girl.png", "/girl.png", "/girl.png"].map((img, idx) => (
+    <Col
+      lg={4}
+      md={6}
+      xs={12}
+      key={idx}
+      className="mb-4 d-flex justify-content-center"
+    >
+      <div
+        style={{
+          position: "relative",
+          width: "100%",
+          maxWidth: "260px",
+          height: "300px",
+          borderRadius: "12px",
+          overflow: "hidden",
+          boxShadow: "0 6px 12px rgba(0,0,0,0.2)",
+          transition: "transform 0.4s ease, box-shadow 0.4s ease",
+        }}
+        className="hover-scale"
+      >
+        <img
+          src={img}
+          alt="team"
+          style={{ width: "100%", height: "100%", objectFit: "cover" }}
+        />
+
+        {/* Middle card special overlay */}
+        {idx === 1 && (
+          <div
+            style={{
+              position: "absolute",
+              inset: 0,
+              background:
+                "linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.9))",
+              color: "white",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+              textAlign: "center",
+              padding: "20px",
+              fontWeight: "bold",
+            }}
+          >
+            <h5 style={{ margin: 0 }}>Full Name</h5>
+            <p style={{ margin: 0, fontSize: "14px" }}>Lorem Ipsum</p>
+          </div>
+        )}
+      </div>
+    </Col>
+  ))}
+</Row>
+
 
         {/* Section: Subscribe Card */}
         <div

@@ -1,7 +1,7 @@
-import { Container, Row, Col, Button, Carousel } from "react-bootstrap";
+import { Container, Row, Col, Button, Carousel, Image } from "react-bootstrap";
+import Footer from "./Footer";
 
-
-const dummyImages = ["/images.jpg", "/images.jpg", "/images.jpg"];
+const dummyImages = ["/nhs.png", "/nhss.png", "/sjhd.png"];
 
 const reviews = [
   {
@@ -92,7 +92,7 @@ export default function Shop() {
           <Col xs={12} md={10} className="d-flex justify-content-center">
             <div className="w-full">
               <img
-                src="/images.jpg"
+                src="/video.png"
                 alt="Behind the Scenes"
                 className="w-full object-cover rounded-xl"
                 style={{
@@ -169,5 +169,4 @@ export default function Shop() {
      </>
   );
 }
-
 

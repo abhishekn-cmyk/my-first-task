@@ -1,4 +1,4 @@
-import type { FC } from "react";
+import { FC } from "react";
 import { Container } from "react-bootstrap";
 
 const Images: FC = () => {
@@ -8,7 +8,7 @@ const Images: FC = () => {
       <div className="relative w-full overflow-hidden">
         {/* Hero Image */}
         <img
-          src="/images.jpg" // Make sure this image is in /public
+          src="/home.png" // Make sure this image is in /public
           alt="Hero Banner"
           className="
             w-full
@@ -30,4 +30,3 @@ const Images: FC = () => {
 };
 
 export default Images;
-

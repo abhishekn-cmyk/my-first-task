@@ -46,7 +46,7 @@ export default function CollageLayout() {
           }}
         >
           <img
-            src="/images.jpg"
+            src="/JP_05752.JPG"
             style={{
               width: "100%",
               height: "100%",
@@ -75,7 +75,7 @@ export default function CollageLayout() {
           }}
         >
           <img
-            src="/images.jpg"
+            src=""
             style={{
               width: "100%",
               height: "100%",
@@ -120,7 +120,7 @@ export default function CollageLayout() {
             }}
           />
           <img
-            src="/images.jpg"
+            src="JP_05919.JPG"
             style={{
               width: "85%",
               height: "90%",
@@ -152,7 +152,7 @@ export default function CollageLayout() {
           }}
         >
           <img
-            src="/images.jpg"
+            src="/JP_05749.JPG"
             style={{
               width: "100%",
               height: "100%",
@@ -181,7 +181,7 @@ export default function CollageLayout() {
           }}
         >
           <img
-            src="/images.jpg"
+            src="JP_05780.JPG"
             style={{
               width: "100%",
               height: "100%",
@@ -210,7 +210,7 @@ export default function CollageLayout() {
           }}
         >
           <img
-            src="/images.jpg"
+            src="JP_05826.JPG"
             style={{
               width: "100%",
               height: "100%",

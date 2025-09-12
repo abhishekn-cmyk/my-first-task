@@ -1,6 +1,4 @@
-import type { FC } from "react";
-import { useState, useEffect } from "react";
-
+import { FC, useState, useEffect } from "react";
 import { Navbar, Nav, Container, Image, Badge } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
 import { Search, User, ShoppingBag, X, Menu } from "lucide-react";
@@ -153,5 +151,4 @@ const Header: FC = () => {
 };
 
 export default Header;
-
 

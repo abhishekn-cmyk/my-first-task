@@ -12,7 +12,7 @@ export default function About() {
         {/* Hero Banner */}
         <Container fluid className="p-0">
           <Image
-            src="/images.jpg"
+            src="/naughty.png"
             alt="Banner Hero"
             fluid
             className="w-full h-[550px] sm:h-[350px] md:h-[450px] lg:h-[500px] xl:h-[600px] object-cover"
