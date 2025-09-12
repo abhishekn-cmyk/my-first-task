@@ -75,7 +75,7 @@ export default function CollageLayout() {
           }}
         >
           <img
-            src=""
+            src="j.jpg"
             style={{
               width: "100%",
               height: "100%",
@@ -210,7 +210,7 @@ export default function CollageLayout() {
           }}
         >
           <img
-            src="JP_05826.JPG"
+            src="JP_05827.JPG"
             style={{
               width: "100%",
               height: "100%",
