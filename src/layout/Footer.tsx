@@ -26,6 +26,7 @@ export default function Footer() {
         <div className="flex justify-center space-x-6 text-base sm:justify-end md:text-lg">
           {socials.map((s) => (
             <Link
+              target="_blank"
               to={s.href}
               className="hover:text-purple transition-all duration-300"
             >
