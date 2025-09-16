@@ -1,33 +1,23 @@
+import { lazy, Suspense } from "react";
+import { Routes, Route } from "react-router";
+import Layout from "./layout/Layout";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
+const Home = lazy(() => import("./pages/Home"));
+const About = lazy(() => import("./pages/About"));
+const Blog = lazy(() => import("./pages/Blog"));
 
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Home from "./components/Home";
-import "./index.css";
-import About from "./components/About";
-import Blog from "./components/Blog";
-function App() {
+export default function App() {
   return (
-    <Router>
-      <div className="App">
-        {/* Header stays constant */}
-        <Header />
-
-        {/* Routes */}
+    <>
+      <Suspense fallback={<div className="min-h-screen" />}>
         <Routes>
-          <Route path="/" element={<Home />} />
-           <Route path="/about" element={<About />} />
-            <Route path="/blogs" element={<Blog/>} />
-          {/* Add more routes here if needed */}
+          <Route element={<Layout />}>
+            <Route path="/" element={<Home />} />
+            <Route path="/about-us" element={<About />} />
+            <Route path="/blogs" element={<Blog />} />
+          </Route>
         </Routes>
-
-        {/* Footer stays constant */}
-        <Footer />
-      </div>
-    </Router>
+      </Suspense>
+    </>
   );
 }
-
-export default App;
