@@ -11,7 +11,11 @@ const socials = [
   },
   {
     title: "tiktok",
-    href: "https://www.instagram.com/naughtyjarsdesserts",
+    href: "https://www.tiktok.com/@naughtyjars25",
+  },
+  {
+    title: "snapchat",
+    href: "https://www.snapchat.com/add/naughtyjars",
   },
 ];
 

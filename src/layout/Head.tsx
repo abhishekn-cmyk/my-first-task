@@ -84,8 +84,8 @@ export default function HeadMeta({
             "@context": "https://schema.org",
             "@type": "Organization",
             name: "Naughty Jars",
-            url: "https://naughtyjars.com",
-            logo: "https://naughtyjars.com/logo.png",
+            url: "https://naughty-jars.vercel.app",
+            logo: "https://naughty-jars.vercel.app/logo.png",
             description:
               "Exquisite desserts made with love and premium ingredients. Now with doorstep delivery on Noon and Careem Dubai - United Arab Emirates",
             contactPoint: {

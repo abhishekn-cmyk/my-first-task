@@ -12,11 +12,11 @@ export default function Header() {
   const [show, setShow] = useState(false);
 
   return (
-    <header className="bg-purple-700">
+    <header className="bg-[url('/nav-bg.webp')]">
       <div className="flex items-center justify-between gap-5 px-5 py-5">
         <Link to="/">
           <img
-            src="/logo.png"
+            src="/logo-white.png"
             className="h-auto w-32 object-contain"
             alt="logo"
             loading="eager"
@@ -51,7 +51,6 @@ export default function Header() {
               {m.title}
             </NavLink>
           ))}
-          <ButtonGroup />
         </div>
       )}
     </header>
@@ -60,7 +59,7 @@ export default function Header() {
 
 function ButtonGroup() {
   return (
-    <div className="flex items-center gap-8 text-white">
+    <div className="flex items-center gap-5 sm:gap-8 text-white">
       <Search strokeWidth={1.5} />
       <User strokeWidth={1.5} />
       <ShoppingBag strokeWidth={1.5} />
