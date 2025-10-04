@@ -32,6 +32,7 @@ export default function Footer() {
             <Link
               target="_blank"
               to={s.href}
+              key={s.title}
               className="hover:text-purple transition-all duration-300"
             >
               {s.title}

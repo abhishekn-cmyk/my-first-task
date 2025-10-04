@@ -17,7 +17,7 @@ export default function Shop() {
 
       <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-3 sm:gap-8 md:grid-cols-3 md:gap-10">
         {dummyImages.map((img, index) => (
-          <div className="w-full text-center">
+          <div className="w-full text-center" key={index}>
             <div
               className="mb-3 w-full"
               style={{

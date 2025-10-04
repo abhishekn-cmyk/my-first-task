@@ -25,7 +25,7 @@ export default function Header() {
         <div className="flex items-center gap-10">
           <nav className="hidden items-center gap-10 sm:flex">
             {menus.map((m) => (
-              <NavLink to={m.href} className="text-lg text-white">
+              <NavLink to={m.href} className="text-lg text-white" key={m.title}>
                 {m.title}
               </NavLink>
             ))}
@@ -47,7 +47,7 @@ export default function Header() {
       {show && (
         <div className="flex flex-col items-center justify-center gap-5 pb-5">
           {menus.map((m) => (
-            <NavLink to={m.href} className="text-lg text-white">
+            <NavLink to={m.href} className="text-lg text-white" key={m.title}>
               {m.title}
             </NavLink>
           ))}
@@ -59,7 +59,7 @@ export default function Header() {
 
 function ButtonGroup() {
   return (
-    <div className="flex items-center gap-5 sm:gap-8 text-white">
+    <div className="flex items-center gap-5 text-white sm:gap-8">
       <Search strokeWidth={1.5} />
       <User strokeWidth={1.5} />
       <ShoppingBag strokeWidth={1.5} />

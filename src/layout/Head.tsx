@@ -30,7 +30,7 @@ export default function HeadMeta({
     typeof window !== "undefined" ? window.location.href : canonicalUrl || "";
 
   return (
-    <head>
+    <article>
       {/* Basic Meta Tags */}
       <title>{title}</title>
       <meta name="description" content={description} />
@@ -101,6 +101,6 @@ export default function HeadMeta({
           }),
         }}
       />
-    </head>
+    </article>
   );
 }
